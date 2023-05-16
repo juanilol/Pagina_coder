@@ -1,0 +1,58 @@
+/*Estilo de la seccion 1*/
+.contenedor1 {
+    background-color: rgb(26, 73, 160);
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flexbox;
+}
+
+.grafica {
+    position: absolute;
+    margin: auto;
+}
+
+.monitor {
+    position: relative;
+    margin: auto;
+    left: 300px;
+}
+
+/*Estilo del Body y Header de la pagina*/
+
+header nav ul li {
+    list-style: none;
+    display: inline;
+    margin-right: 0.2rem;
+    font-size: 20px;
+    font-family: Georgia;
+}
+
+header {
+    
+    display: grid;
+}
+
+header nav ul li a:hover {
+    background-color: grey;
+    box-shadow: 5px 5px 5px 5px black;
+    transition: 1s;
+}
+
+.titulo {
+    margin: auto;
+}
+
+.Cuerpo {
+    color: #606060;
+}
+
+body {
+    background-color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
